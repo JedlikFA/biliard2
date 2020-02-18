@@ -17,7 +17,7 @@ namespace biliard2
             {
                 leeső = LeEsőSorsoló(golyók);
                 Kiíró(golyók);
-                Console.WriteLine(leeső);
+                Console.Write(leeső);
             } while (leeső!=8);
 
            // for (int i = 0; i < golyók.Count; i++)
